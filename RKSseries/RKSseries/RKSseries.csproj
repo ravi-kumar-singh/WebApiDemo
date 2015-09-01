@@ -89,7 +89,15 @@
     <Compile Include="DataAccess\Entities\Player.cs" />
     <Compile Include="DataAccess\Entities\ReportingBase.cs" />
     <Compile Include="DataAccess\Entities\Team.cs" />
+    <Compile Include="DataAccess\Repositories\EventRepository.cs" />
+    <Compile Include="DataAccess\Repositories\GameRepository.cs" />
+    <Compile Include="DataAccess\Repositories\IRepository.cs" />
+    <Compile Include="DataAccess\Repositories\PlayerRepository.cs" />
+    <Compile Include="DataAccess\Repositories\Repository.cs" />
+    <Compile Include="DataAccess\Repositories\TeamRepository.cs" />
     <Compile Include="DataAccess\RKDbContext.cs" />
+    <Compile Include="DataAccess\Service\IRKService.cs" />
+    <Compile Include="DataAccess\Service\RKService.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
