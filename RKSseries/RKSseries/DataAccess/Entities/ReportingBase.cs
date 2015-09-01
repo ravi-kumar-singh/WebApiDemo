@@ -7,7 +7,7 @@ namespace RKSseries.DataAccess.Entities
 {
     public abstract class ReportingBase
     {
-        public DateTime CreateDate { get; set; }
+        public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
     }
 }

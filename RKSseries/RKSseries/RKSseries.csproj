@@ -93,6 +93,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201509011909194_Initial.cs" />
+    <Compile Include="Migrations\201509011909194_Initial.Designer.cs">
+      <DependentUpon>201509011909194_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201509011917539_SeedData.cs" />
+    <Compile Include="Migrations\201509011917539_SeedData.Designer.cs">
+      <DependentUpon>201509011917539_SeedData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -108,6 +117,14 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201509011909194_Initial.resx">
+      <DependentUpon>201509011909194_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201509011917539_SeedData.resx">
+      <DependentUpon>201509011917539_SeedData.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
